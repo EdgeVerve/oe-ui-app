@@ -1,15 +1,15 @@
 {
-  "name": "oe-starter-app",
-  "version": "1.0.10",
-  "description": "Starter app generator to scaffold an oe based application",
+  "name": "oe-ui-app",
+  "version": "0.8.0",
+  "description": "Starter app generator to scaffold an oe-UI based application",
   "repository": {
     "type": "git",
-    "url": "git@github.com:EdgeVerve/oe-starter-app.git"
+    "url": "git@github.com:EdgeVerve/oe-ui-app.git"
   },
   "license": "MIT",
   "author": "Ramesh choudhary <ramesh_srch@outlook.com>",
   "keywords": [
-    "oe-starter"
+    "oe-concept"
   ],
   "dependencies": {
     "oe-generator": "^1.1.2",
