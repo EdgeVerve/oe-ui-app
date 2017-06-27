@@ -1,0 +1,45 @@
+{
+  "name": "UserInfo",
+  "plural": "UserInfos",
+  "base": "BaseEntity",
+  "strict": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "dateOfBirth": {
+      "type": "date"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "address": ["Address"],
+    "bio": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "familyMembers": {
+      "type": ["object"]
+    }
+  },
+  "validations": [],
+  "relations": {
+    "user": {
+      "type": "belongsTo",
+      "model": "BaseUser"
+    }
+  },
+  "acls": []
+}

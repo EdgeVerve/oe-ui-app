@@ -1,0 +1,33 @@
+{
+    "_meta": {
+        "sources": [
+            "loopback/common/models",
+            "loopback/server/models",
+            "../common/models"
+        ],
+        "mixins": [
+            "loopback/common/mixins",
+            "loopback/server/mixins"
+        ]
+    },
+    "UserInfo": {
+        "public": true,
+        "dataSource": "db"
+    },
+    "AppUser": {
+        "public": true,
+        "dataSource": "db"
+    },
+    "Address": {
+        "public": true,
+        "dataSource": "db"
+    },
+    "Country": {
+        "public": true,
+        "dataSource": "db"
+    },
+    "Product": {
+        "public": true,
+        "dataSource": "db"
+    }
+}

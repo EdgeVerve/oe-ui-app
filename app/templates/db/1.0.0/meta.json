@@ -1,0 +1,41 @@
+{
+  "contexts": {
+    "default": {
+      "id": 0,
+      "tenantId": "default",
+      "remoteUser": "upload"
+    }
+  },
+  "files": [
+    {
+      "model": "AppUser",
+      "enabled": true,
+      "file": "default/User.json",
+      "ctxId": "default"
+    },
+    {
+      "model": "UIRoute",
+      "enabled": true,
+      "file": "default/UIRoute.json",
+      "ctxId": "default"
+    },
+    {
+      "model": "NavigationLink",
+      "enabled": true,
+      "file": "default/NavigationLink.json",
+      "ctxId": "default"
+    },
+    {
+      "model": "UserInfo",
+      "enabled": true,
+      "file": "default/UserInfo.json",
+      "ctxId": "default"
+    },
+    {
+      "model": "Product",
+      "enabled": true,
+      "file": "default/products.json",
+      "ctxId": "default"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<link rel="import" href="/bower_components/meta-polymer/meta-polymer.html">
+<link rel="import" href="/bower_components/oe-info/oe-info.html">
+<link rel="import" href="/bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="/bower_components/iron-image/iron-image.html">
+<link rel="import" href="/bower_components/oe-data-table/oe-data-table.html">
+<link rel="import" href="/bower_components/oe-date/oe-date.html">
+<link rel="import" href="/bower_components/oe-checkbox/oe-checkbox.html">
+<link rel="import" href="/bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="/bower_components/iron-pages/iron-pages.html">
+<link rel="import" href="/bower_components/oe-validators/behaviors/oe-model-handler.html">
+<link rel="import" href="/bower_components/oe-validators/behaviors/oe-form-validation-behavior.html">
+
+
+<dom-module id=":componentName">
+    <template>
+        <style>
+            oe-data-table {
+                background-color: #fff;
+            }
+            
+        </style>
+
+        
+              
+                <div>
+                  <oe-data-table config-code=":modelName" data-controller={{data}}></oe-data-table>
+                </div>
+            
+    </template>
+    <script>
+        MetaPolymer({
+            is: ":componentName",
+            attached:function(){
+                this.data={
+                    restUrl : "/api/:plural"
+                }
+            },
+            behaviors: [OEUtils.FormValidationBehavior, OEUtils.ModelHandler, OEUtils.FormMessagesBehavior]
+        });
+    </script>
+</dom-module>

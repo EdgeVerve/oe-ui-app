@@ -1,0 +1,56 @@
+{
+  "name": "Product",
+  "base": "BaseEntity",
+  "strict": false,
+  "plural": "Products",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "code": {
+      "type": "string",
+      "source": "code",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "source": "name",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "source": "category"
+    },
+    "price": {
+      "type": "number",
+      "source": "price"
+    },
+    "offeredSince": {
+      "type": "date",
+      "source": "offeredSince"
+    },
+    "active": {
+      "type": "boolean",
+      "source": "active"
+    },
+    "flavourable": {
+      "type": "boolean",
+      "source": "flavourable"
+    },
+    "flavours": {
+      "type": [
+        "string"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "source": "description",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

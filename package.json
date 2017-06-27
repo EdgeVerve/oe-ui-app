@@ -1,0 +1,21 @@
+{
+  "name": "oe-starter-app",
+  "version": "1.0.10",
+  "description": "Starter app generator to scaffold an oe based application",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:EdgeVerve/oe-starter-app.git"
+  },
+  "license": "MIT",
+  "author": "Ramesh choudhary <ramesh_srch@outlook.com>",
+  "keywords": [
+    "oe-starter"
+  ],
+  "dependencies": {
+    "oe-generator": "^1.1.2",
+    "fullname": "^3.3.0"
+  },
+  "files": [
+    "app"
+  ]
+}
