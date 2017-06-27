@@ -1,0 +1,1 @@
+A sample UI app to demonstrate UI components using UI metadata.
