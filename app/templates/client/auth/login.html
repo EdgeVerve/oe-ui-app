@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>oe-cloud app</title>
+  <script src="../bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <link rel="import" href="../bower_components/polymer/polymer.html">
+  <link rel="import" href="../bower_components/app-route/app-location.html">
+  <link rel="import" href="../bower_components/iron-pages/iron-pages.html">
+  <link rel="import" href="../bower_components/oe-app-route/oe-app-route.html">
+  <link rel="import" href="../bower_components/oe-message-handler/oe-message-handler.html">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto';
+      line-height: 1.5;
+      min-height: 100vh;
+      background-color: #eeeeee;
+    }
+  </style>
+</head>
+
+<body unresolved>
+  <template is="dom-bind" id="mainbody">
+    <app-location route="{{route}}"></app-location>
+    <oe-app-route group='login' route="{{route}}" config-url="api/UIRoutes">
+      <iron-pages route-target attr-for-selected="route-path" selected="/">
+        <div route-path="/"></div>
+      </iron-pages>
+    </oe-app-route>
+    <oe-message-handler fit-bottom duration="2000" persist-on="error"></oe-message-handler>
+  </template>
+  <script>
+    var OEUtils = window.OEUtils || {};
+    var base_url = window.location.origin;
+    OEUtils.baseurl = base_url;
+  </script>
+</body>
+
+</html>

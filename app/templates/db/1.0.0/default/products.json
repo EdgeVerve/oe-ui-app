@@ -1,0 +1,30 @@
+[
+    {
+  "code": "P1001",
+  "name": "KitKat",
+  "category": "chocolates",
+  "price": 10,
+  "offeredSince": "2017-06-21T06:18:05.586Z",
+  "active": true,
+  "flavourable": true,
+  "flavours": [
+    "milk and chocolate","only chocolate"
+  ],
+  "description": "Kitkat chocolate 50g",
+  "id": "P1"
+    },
+    {
+  "code": "P1002",
+  "name": "Dairy Milk",
+  "category": "chocolates",
+  "price": 100,
+  "offeredSince": "2017-06-21T06:18:05.586Z",
+  "active": true,
+  "flavourable": true,
+  "flavours": [
+    "Silk","only nuts"
+  ],
+  "description": "Diary Milk 100g",
+  "id": "P2"
+    }
+]

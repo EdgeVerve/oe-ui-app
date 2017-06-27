@@ -1,0 +1,76 @@
+<link rel="import" href="/bower_components/meta-polymer/meta-polymer.html">
+<link rel="import" href="/bower_components/oe-info/oe-info.html">
+<link rel="import" href="/bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="/bower_components/iron-image/iron-image.html">
+<link rel="import" href="/bower_components/oe-data-table/oe-data-table.html">
+<link rel="import" href="/bower_components/oe-date/oe-date.html">
+<link rel="import" href="/bower_components/oe-combo/oe-combo.html">
+<link rel="import" href="/bower_components/oe-paper-chip/oe-paper-chip.html">
+<link rel="import" href="/bower_components/oe-checkbox/oe-checkbox.html">
+<link rel="import" href="/bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="/bower_components/iron-pages/iron-pages.html">
+<link rel="import" href="/bower_components/oe-validators/behaviors/oe-model-handler.html">
+<link rel="import" href="/bower_components/oe-validators/behaviors/oe-form-validation-behavior.html">
+<link rel="import" href="/bower_components/oe-validators/behaviors/oe-model-handler.html">
+<link rel="import" href="/bower_components/oe-validators/oe-validators.html">
+
+
+<dom-module id=":componentName">
+    <template>
+        <style>
+            
+            .content {
+                padding: 20px;
+                background-color: #fff;
+            }
+            
+            .layout-2-1 > * {
+                width: calc(50.00% - 16px);
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+             .layout-2-1  {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            paper-button {
+                background-color: #1724BA;
+                color: #fff;
+            }
+            
+            @media(max-width:600px) {
+                .layout-2-1 > * {
+                    width: calc(100.00% - 16px);
+                }
+            }
+        </style>
+
+        <div class="content layout vertical">
+            <div class="layout horizontal">
+                <h2 class="flex">:modelName</h2>
+                <div>
+                    <paper-button raised primary on-tap="doSave">Save</paper-button>
+                </div>
+            </div>
+
+            <div id="fields" class="layout-2-1 layout horizontal wrap">
+            </div>
+            <div id="details" class="layout vertical">
+            </div>
+        </div>
+    </template>
+    <script>
+        MetaPolymer({
+            is: ":componentName",
+            behaviors: [OEUtils.FormValidationBehavior, OEUtils.ModelHandler, OEUtils.FormMessagesBehavior],
+            listeners :{ "oe-formdata-updated":"_success","oe-formdata-inserted":"_success" },
+            _success:function(){
+                this.fire("oe-show-success","Record inserted/updated successfully");
+                this.doClear();
+            }
+
+            
+        });
+    </script>
+</dom-module>

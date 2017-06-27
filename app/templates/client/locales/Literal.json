@@ -1,0 +1,1418 @@
+[{
+    "key": "Line1",
+    "value": "Line1",
+    "scope": {}
+}, {
+    "key": "Line2",
+    "value": "Line2",
+    "scope": {}
+}, {
+    "key": "City",
+    "value": "City",
+    "scope": {}
+}, {
+    "key": "Province",
+    "value": "Province",
+    "scope": {}
+}, {
+    "key": "Country",
+    "value": "Country",
+    "scope": {}
+}, {
+    "key": "Zip Code",
+    "value": "Zip Code",
+    "scope": {}
+}, {
+    "key": "Profile",
+    "value": "Profile",
+    "scope": {}
+}, {
+    "key": "Loans",
+    "value": "Loans",
+    "scope": {}
+}, {
+    "key": "Loan Applications",
+    "value": "Loan Applications",
+    "scope": {}
+}, {
+    "key": "First Name",
+    "value": "First Name",
+    "scope": {}
+}, {
+    "key": "Last Name",
+    "value": "Last Name",
+    "scope": {}
+}, {
+    "key": "Region",
+    "value": "Region",
+    "scope": {}
+}, {
+    "key": "Date Of Birth",
+    "value": "Date Of Birth",
+    "scope": {}
+}, {
+    "key": "Address",
+    "value": "Address",
+    "scope": {}
+}, {
+    "key": "Phone Number",
+    "value": "Phone Number",
+    "scope": {}
+}, {
+    "key": "Image",
+    "value": "Image",
+    "scope": {}
+}, {
+    "key": "User",
+    "value": "User",
+    "scope": {}
+}, {
+    "key": "Employment Type",
+    "value": "Employment Type",
+    "scope": {}
+}, {
+    "key": "Monthly Income",
+    "value": "Monthly Income",
+    "scope": {}
+}, {
+    "key": "Currency",
+    "value": "Currency",
+    "scope": {}
+}, {
+    "key": "Years Of Experience",
+    "value": "Years Of Experience",
+    "scope": {}
+}, {
+    "key": "Income Type",
+    "value": "Income Type",
+    "scope": {}
+}, {
+    "key": "Amount",
+    "value": "Amount",
+    "scope": {}
+}, {
+    "key": "Type",
+    "value": "Type",
+    "scope": {}
+}, {
+    "key": "Tenure",
+    "value": "Tenure",
+    "scope": {}
+}, {
+    "key": "Status",
+    "value": "Status",
+    "scope": {}
+}, {
+    "key": "Income Sources",
+    "value": "Income Sources",
+    "scope": {}
+}, {
+    "key": "Reason",
+    "value": "Reason",
+    "scope": {}
+}, {
+    "key": "App User",
+    "value": "App User",
+    "scope": {}
+}, {
+    "key": "Approved Amount",
+    "value": "Approved Amount",
+    "scope": {}
+}, {
+    "key": "Disbursed Amount",
+    "value": "Disbursed Amount",
+    "scope": {}
+}, {
+    "key": "Outstanding Amount",
+    "value": "Outstanding Amount",
+    "scope": {}
+}, {
+    "key": "Start Date",
+    "value": "Start Date",
+    "scope": {}
+}, {
+    "key": "End Date",
+    "value": "End Date",
+    "scope": {}
+}, {
+    "key": "Emi",
+    "value": "Emi",
+    "scope": {}
+}, {
+    "key": "Interest Rate",
+    "value": "Interest Rate",
+    "scope": {}
+}, {
+    "key": "Transactions",
+    "value": "Transactions",
+    "scope": {}
+}, {
+    "key": "Label",
+    "value": "Label",
+    "scope": {}
+}, {
+    "key": "Short Description",
+    "value": "Short Description",
+    "scope": {}
+}, {
+    "key": "Processing Fee",
+    "value": "Processing Fee",
+    "scope": {}
+}, {
+    "key": "Rate Of Interest",
+    "value": "Rate Of Interest",
+    "scope": {}
+}, {
+    "key": "Title1",
+    "value": "Title1",
+    "scope": {}
+}, {
+    "key": "Description1",
+    "value": "Description1",
+    "scope": {}
+}, {
+    "key": "Title2",
+    "value": "Title2",
+    "scope": {}
+}, {
+    "key": "Description2",
+    "value": "Description2",
+    "scope": {}
+}, {
+    "key": "Features",
+    "value": "Features",
+    "scope": {}
+}, {
+    "key": "Image Path",
+    "value": "Image Path",
+    "scope": {}
+}, {
+    "key": "Tdate",
+    "value": "Tdate",
+    "scope": {}
+}, {
+    "key": "Comments",
+    "value": "Comments",
+    "scope": {}
+}, {
+    "key": "Loan",
+    "value": "Loan",
+    "scope": {}
+}, {
+    "key": "Entity Id",
+    "value": "Entity Id",
+    "scope": {}
+}, {
+    "key": "Payload",
+    "value": "Payload",
+    "scope": {}
+}, {
+    "key": "Model Name",
+    "value": "Model Name",
+    "scope": {}
+}, {
+    "key": "Instruction Type",
+    "value": "Instruction Type",
+    "scope": {}
+}, {
+    "key": "Seq Num",
+    "value": "Seq Num",
+    "scope": {}
+}, {
+    "key": "Server",
+    "value": "Server",
+    "scope": {}
+}, {
+    "key": "Client",
+    "value": "Client",
+    "scope": {}
+}, {
+    "key": "Tenant Id",
+    "value": "Tenant Id",
+    "scope": {}
+}, {
+    "key": "Roles",
+    "value": "Roles",
+    "scope": {}
+}, {
+    "key": "Department",
+    "value": "Department",
+    "scope": {}
+}, {
+    "key": "Username",
+    "value": "Username",
+    "scope": {}
+}, {
+    "key": "User Tenant Id",
+    "value": "User Tenant Id",
+    "scope": {}
+}, {
+    "key": "State Id",
+    "value": "State Id",
+    "scope": {}
+}, {
+    "key": "From Pending",
+    "value": "From Pending",
+    "scope": {}
+}, {
+    "key": "Startup",
+    "value": "Startup",
+    "scope": {}
+}, {
+    "key": "Atomic Activities",
+    "value": "Atomic Activities",
+    "scope": {}
+}, {
+    "key": "Non Atomic Activities",
+    "value": "Non Atomic Activities",
+    "scope": {}
+}, {
+    "key": "Role",
+    "value": "Role",
+    "scope": {}
+}, {
+    "key": "Principals",
+    "value": "Principals",
+    "scope": {}
+}, {
+    "key": "Failed Tries",
+    "value": "Failed Tries",
+    "scope": {}
+}, {
+    "key": "Access Tokens",
+    "value": "Access Tokens",
+    "scope": {}
+}, {
+    "key": "Identities",
+    "value": "Identities",
+    "scope": {}
+}, {
+    "key": "Credentials",
+    "value": "Credentials",
+    "scope": {}
+}, {
+    "key": "Otp",
+    "value": "Otp",
+    "scope": {}
+}, {
+    "key": "Expression",
+    "value": "Expression",
+    "scope": {}
+}, {
+    "key": "Verb",
+    "value": "Verb",
+    "scope": {}
+}, {
+    "key": "Category",
+    "value": "Category",
+    "scope": {}
+}, {
+    "key": "Code",
+    "value": "Code",
+    "scope": {}
+}, {
+    "key": "Description",
+    "value": "Description",
+    "scope": {}
+}, {
+    "key": "Original Entity Id",
+    "value": "Original Entity Id",
+    "scope": {}
+}, {
+    "key": "Original Entity Type",
+    "value": "Original Entity Type",
+    "scope": {}
+}, {
+    "key": "Changed Entity",
+    "value": "Changed Entity",
+    "scope": {}
+}, {
+    "key": "Model",
+    "value": "Model",
+    "scope": {}
+}, {
+    "key": "Access Type",
+    "value": "Access Type",
+    "scope": {}
+}, {
+    "key": "Principal Type",
+    "value": "Principal Type",
+    "scope": {}
+}, {
+    "key": "Property",
+    "value": "Property",
+    "scope": {}
+}, {
+    "key": "Principal Id",
+    "value": "Principal Id",
+    "scope": {}
+}, {
+    "key": "Filter",
+    "value": "Filter",
+    "scope": {}
+}, {
+    "key": "Group",
+    "value": "Group",
+    "scope": {}
+}, {
+    "key": "Error Code",
+    "value": "Error Code",
+    "scope": {}
+}, {
+    "key": "Name",
+    "value": "Name",
+    "scope": {}
+}, {
+    "key": "Connector",
+    "value": "Connector",
+    "scope": {}
+}, {
+    "key": "Host",
+    "value": "Host",
+    "scope": {}
+}, {
+    "key": "Port",
+    "value": "Port",
+    "scope": {}
+}, {
+    "key": "Url",
+    "value": "Url",
+    "scope": {}
+}, {
+    "key": "Database",
+    "value": "Database",
+    "scope": {}
+}, {
+    "key": "Password",
+    "value": "Password",
+    "scope": {}
+}, {
+    "key": "Priority",
+    "value": "Priority",
+    "scope": {}
+}, {
+    "key": "Connection Timeout",
+    "value": "Connection Timeout",
+    "scope": {}
+}, {
+    "key": "Data Source Name",
+    "value": "Data Source Name",
+    "scope": {}
+}, {
+    "key": "Transaction Id",
+    "value": "Transaction Id",
+    "scope": {}
+}, {
+    "key": "Op Data",
+    "value": "Op Data",
+    "scope": {}
+}, {
+    "key": "Last Updated Time",
+    "value": "Last Updated Time",
+    "scope": {}
+}, {
+    "key": "Decision Rules",
+    "value": "Decision Rules",
+    "scope": {}
+}, {
+    "key": "Document",
+    "value": "Document",
+    "scope": {}
+}, {
+    "key": "Document Name",
+    "value": "Document Name",
+    "scope": {}
+}, {
+    "key": "Document Data",
+    "value": "Document Data",
+    "scope": {}
+}, {
+    "key": "Err Code",
+    "value": "Err Code",
+    "scope": {}
+}, {
+    "key": "Err Message",
+    "value": "Err Message",
+    "scope": {}
+}, {
+    "key": "More Information",
+    "value": "More Information",
+    "scope": {}
+}, {
+    "key": "Event History Array",
+    "value": "Event History Array",
+    "scope": {}
+}, {
+    "key": "Host Name",
+    "value": "Host Name",
+    "scope": {}
+}, {
+    "key": "Timestamp",
+    "value": "Timestamp",
+    "scope": {}
+}, {
+    "key": "Schedule",
+    "value": "Schedule",
+    "scope": {}
+}, {
+    "key": "Model Query",
+    "value": "Model Query",
+    "scope": {}
+}, {
+    "key": "Data Query",
+    "value": "Data Query",
+    "scope": {}
+}, {
+    "key": "Event Name",
+    "value": "Event Name",
+    "scope": {}
+}, {
+    "key": "Enable",
+    "value": "Enable",
+    "scope": {}
+}, {
+    "key": "Model Id",
+    "value": "Model Id",
+    "scope": {}
+}, {
+    "key": "Nodde Id",
+    "value": "Nodde Id",
+    "scope": {}
+}, {
+    "key": "Lock Status",
+    "value": "Lock Status",
+    "scope": {}
+}, {
+    "key": "Data",
+    "value": "Data",
+    "scope": {}
+}, {
+    "key": "Time",
+    "value": "Time",
+    "scope": {}
+}, {
+    "key": "Properties",
+    "value": "Properties",
+    "scope": {}
+}, {
+    "key": "Readonly",
+    "value": "Readonly",
+    "scope": {}
+}, {
+    "key": "Plural",
+    "value": "Plural",
+    "scope": {}
+}, {
+    "key": "Base",
+    "value": "Base",
+    "scope": {}
+}, {
+    "key": "Strict",
+    "value": "Strict",
+    "scope": {}
+}, {
+    "key": "Public",
+    "value": "Public",
+    "scope": {}
+}, {
+    "key": "Id Injection",
+    "value": "Id Injection",
+    "scope": {}
+}, {
+    "key": "Validate Upsert",
+    "value": "Validate Upsert",
+    "scope": {}
+}, {
+    "key": "Validations",
+    "value": "Validations",
+    "scope": {}
+}, {
+    "key": "Relations",
+    "value": "Relations",
+    "scope": {}
+}, {
+    "key": "Acls",
+    "value": "Acls",
+    "scope": {}
+}, {
+    "key": "Methods",
+    "value": "Methods",
+    "scope": {}
+}, {
+    "key": "Filebased",
+    "value": "Filebased",
+    "scope": {}
+}, {
+    "key": "Composite Models",
+    "value": "Composite Models",
+    "scope": {}
+}, {
+    "key": "Composite Transaction",
+    "value": "Composite Transaction",
+    "scope": {}
+}, {
+    "key": "Autoscope",
+    "value": "Autoscope",
+    "scope": {}
+}, {
+    "key": "Hierarchy Scope",
+    "value": "Hierarchy Scope",
+    "scope": {}
+}, {
+    "key": "Mixins",
+    "value": "Mixins",
+    "scope": {}
+}, {
+    "key": "Mongodb",
+    "value": "Mongodb",
+    "scope": {}
+}, {
+    "key": "Variant Of",
+    "value": "Variant Of",
+    "scope": {}
+}, {
+    "key": "Upward",
+    "value": "Upward",
+    "scope": {}
+}, {
+    "key": "Options",
+    "value": "Options",
+    "scope": {}
+}, {
+    "key": "Ev Validations",
+    "value": "Ev Validations",
+    "scope": {}
+}, {
+    "key": "Enable Default U I",
+    "value": "Enable Default U I",
+    "scope": {}
+}, {
+    "key": "Enable Remote Proxy",
+    "value": "Enable Remote Proxy",
+    "scope": {}
+}, {
+    "key": "Client Model Name",
+    "value": "Client Model Name",
+    "scope": {}
+}, {
+    "key": "Disabled",
+    "value": "Disabled",
+    "scope": {}
+}, {
+    "key": "Default Rules",
+    "value": "Default Rules",
+    "scope": {}
+}, {
+    "key": "Validation Rules",
+    "value": "Validation Rules",
+    "scope": {}
+}, {
+    "key": "Flow",
+    "value": "Flow",
+    "scope": {}
+}, {
+    "key": "Token",
+    "value": "Token",
+    "scope": {}
+}, {
+    "key": "State",
+    "value": "State",
+    "scope": {}
+}, {
+    "key": "Failed Attemps",
+    "value": "Failed Attemps",
+    "scope": {}
+}, {
+    "key": "Journal Name",
+    "value": "Journal Name",
+    "scope": {}
+}, {
+    "key": "Saved Ctx",
+    "value": "Saved Ctx",
+    "scope": {}
+}, {
+    "key": "Saved Data",
+    "value": "Saved Data",
+    "scope": {}
+}, {
+    "key": "Instance Version",
+    "value": "Instance Version",
+    "scope": {}
+}, {
+    "key": "Is First Pending",
+    "value": "Is First Pending",
+    "scope": {}
+}, {
+    "key": "Rule Name",
+    "value": "Rule Name",
+    "scope": {}
+}, {
+    "key": "Personalization Rule",
+    "value": "Personalization Rule",
+    "scope": {}
+}, {
+    "key": "Times Sent",
+    "value": "Times Sent",
+    "scope": {}
+}, {
+    "key": "Uri",
+    "value": "Uri",
+    "scope": {}
+}, {
+    "key": "Method",
+    "value": "Method",
+    "scope": {}
+}, {
+    "key": "Hash On",
+    "value": "Hash On",
+    "scope": {}
+}, {
+    "key": "State Obj",
+    "value": "State Obj",
+    "scope": {}
+}, {
+    "key": "Last Updated",
+    "value": "Last Updated",
+    "scope": {}
+}, {
+    "key": "Actor Id",
+    "value": "Actor Id",
+    "scope": {}
+}, {
+    "key": "Key",
+    "value": "Key",
+    "scope": {}
+}, {
+    "key": "Value",
+    "value": "Value",
+    "scope": {}
+}, {
+    "key": "Tenant Name",
+    "value": "Tenant Name",
+    "scope": {}
+}, {
+    "key": "User Id",
+    "value": "User Id",
+    "scope": {}
+}, {
+    "key": "Title",
+    "value": "Title",
+    "scope": {}
+}, {
+    "key": "Content",
+    "value": "Content",
+    "scope": {}
+}, {
+    "key": "Page Name",
+    "value": "Page Name",
+    "scope": {}
+}, {
+    "key": "Node Tree",
+    "value": "Node Tree",
+    "scope": {}
+}, {
+    "key": "Element Config",
+    "value": "Element Config",
+    "scope": {}
+}, {
+    "key": "Related Scope",
+    "value": "Related Scope",
+    "scope": {}
+}, {
+    "key": "Page Config",
+    "value": "Page Config",
+    "scope": {}
+}, {
+    "key": "Custom Scope",
+    "value": "Custom Scope",
+    "scope": {}
+}, {
+    "key": "Tag",
+    "value": "Tag",
+    "scope": {}
+}, {
+    "key": "Icon",
+    "value": "Icon",
+    "scope": {}
+}, {
+    "key": "Config",
+    "value": "Config",
+    "scope": {}
+}, {
+    "key": "Uitype",
+    "value": "Uitype",
+    "scope": {}
+}, {
+    "key": "Default",
+    "value": "Default",
+    "scope": {}
+}, {
+    "key": "Required",
+    "value": "Required",
+    "scope": {}
+}, {
+    "key": "Hidden",
+    "value": "Hidden",
+    "scope": {}
+}, {
+    "key": "Class",
+    "value": "Class",
+    "scope": {}
+}, {
+    "key": "Minlength",
+    "value": "Minlength",
+    "scope": {}
+}, {
+    "key": "Maxlength",
+    "value": "Maxlength",
+    "scope": {}
+}, {
+    "key": "Min",
+    "value": "Min",
+    "scope": {}
+}, {
+    "key": "Max",
+    "value": "Max",
+    "scope": {}
+}, {
+    "key": "Precision",
+    "value": "Precision",
+    "scope": {}
+}, {
+    "key": "Pattern",
+    "value": "Pattern",
+    "scope": {}
+}, {
+    "key": "Listdata",
+    "value": "Listdata",
+    "scope": {}
+}, {
+    "key": "Listid",
+    "value": "Listid",
+    "scope": {}
+}, {
+    "key": "Listurl",
+    "value": "Listurl",
+    "scope": {}
+}, {
+    "key": "Bindto",
+    "value": "Bindto",
+    "scope": {}
+}, {
+    "key": "Ui Type",
+    "value": "Ui Type",
+    "scope": {}
+}, {
+    "key": "Width",
+    "value": "Width",
+    "scope": {}
+}, {
+    "key": "Min Width",
+    "value": "Min Width",
+    "scope": {}
+}, {
+    "key": "Sort",
+    "value": "Sort",
+    "scope": {}
+}, {
+    "key": "First To Sort",
+    "value": "First To Sort",
+    "scope": {}
+}, {
+    "key": "Formatter",
+    "value": "Formatter",
+    "scope": {}
+}, {
+    "key": "Renderer",
+    "value": "Renderer",
+    "scope": {}
+}, {
+    "key": "Href",
+    "value": "Href",
+    "scope": {}
+}, {
+    "key": "Cell Class",
+    "value": "Cell Class",
+    "scope": {}
+}, {
+    "key": "Cell Class Rules",
+    "value": "Cell Class Rules",
+    "scope": {}
+}, {
+    "key": "Value Getter",
+    "value": "Value Getter",
+    "scope": {}
+}, {
+    "key": "Visible",
+    "value": "Visible",
+    "scope": {}
+}, {
+    "key": "Editor Form Url",
+    "value": "Editor Form Url",
+    "scope": {}
+}, {
+    "key": "Column Configs",
+    "value": "Column Configs",
+    "scope": {}
+}, {
+    "key": "Grid Identifier",
+    "value": "Grid Identifier",
+    "scope": {}
+}, {
+    "key": "Column Fields",
+    "value": "Column Fields",
+    "scope": {}
+}, {
+    "key": "Dialog Meta Data",
+    "value": "Dialog Meta Data",
+    "scope": {}
+}, {
+    "key": "Dialog Template Url",
+    "value": "Dialog Template Url",
+    "scope": {}
+}, {
+    "key": "Placeholders",
+    "value": "Placeholders",
+    "scope": {}
+}, {
+    "key": "Models",
+    "value": "Models",
+    "scope": {}
+}, {
+    "key": "Top Level",
+    "value": "Top Level",
+    "scope": {}
+}, {
+    "key": "Employment",
+    "value": "Employment",
+    "scope": {}
+}, {
+    "key": "Sequence",
+    "value": "Sequence",
+    "scope": {}
+}, {
+    "key": "Children",
+    "value": "Children",
+    "scope": {}
+}, {
+    "key": "Attributes",
+    "value": "Attributes",
+    "scope": {}
+}, {
+    "key": "Template Name",
+    "value": "Template Name",
+    "scope": {}
+}, {
+    "key": "File Path",
+    "value": "File Path",
+    "scope": {}
+}, {
+    "key": "Route Path",
+    "value": "Route Path",
+    "scope": {}
+}, {
+    "key": "Model Alias",
+    "value": "Model Alias",
+    "scope": {}
+}, {
+    "key": "Fields",
+    "value": "Fields",
+    "scope": {}
+}, {
+    "key": "Grid Config",
+    "value": "Grid Config",
+    "scope": {}
+}, {
+    "key": "Polymer Config",
+    "value": "Polymer Config",
+    "scope": {}
+}, {
+    "key": "Auto Inject Fields",
+    "value": "Auto Inject Fields",
+    "scope": {}
+}, {
+    "key": "Exclude Fields",
+    "value": "Exclude Fields",
+    "scope": {}
+}, {
+    "key": "Component",
+    "value": "Component",
+    "scope": {}
+}, {
+    "key": "Field",
+    "value": "Field",
+    "scope": {}
+}, {
+    "key": "Text Content",
+    "value": "Text Content",
+    "scope": {}
+}, {
+    "key": "_attributes",
+    "value": "_attributes",
+    "scope": {}
+}, {
+    "key": "Modeltype",
+    "value": "Modeltype",
+    "scope": {}
+}, {
+    "key": "Skip Missing Properties",
+    "value": "Skip Missing Properties",
+    "scope": {}
+}, {
+    "key": "Show Title In Navbar",
+    "value": "Show Title In Navbar",
+    "scope": {}
+}, {
+    "key": "Resturl",
+    "value": "Resturl",
+    "scope": {}
+}, {
+    "key": "Controls",
+    "value": "Controls",
+    "scope": {}
+}, {
+    "key": "Exclude",
+    "value": "Exclude",
+    "scope": {}
+}, {
+    "key": "Functions",
+    "value": "Functions",
+    "scope": {}
+}, {
+    "key": "Behaviors",
+    "value": "Behaviors",
+    "scope": {}
+}, {
+    "key": "Master Page",
+    "value": "Master Page",
+    "scope": {}
+}, {
+    "key": "Path",
+    "value": "Path",
+    "scope": {}
+}, {
+    "key": "Import",
+    "value": "Import",
+    "scope": {}
+}, {
+    "key": "Target Element",
+    "value": "Target Element",
+    "scope": {}
+}, {
+    "key": "Retain Instance",
+    "value": "Retain Instance",
+    "scope": {}
+}, {
+    "key": "Transitions",
+    "value": "Transitions",
+    "scope": {}
+}, {
+    "key": "Error",
+    "value": "Error",
+    "scope": {}
+}, {
+    "key": "Update Profile",
+    "value": "Update Profile",
+    "scope": {}
+}, {
+    "key": "logout",
+    "value": "Logout",
+    "scope": {}
+}, {
+    "key": "apply_loan_amount",
+    "value": "1. Amount Request",
+    "scope": {}
+}, {
+    "key": "apply_loan_employement",
+    "value": "2. Employement Details",
+    "scope": {}
+}, {
+    "key": "apply_loan_eligibility",
+    "value": "3. Eligibility",
+    "scope": {}
+}, {
+    "key": "apply_loan_amount_message",
+    "value": "Enter the amount you need",
+    "scope": {}
+}, {
+    "key": "apply_loan_amount_label",
+    "value": "Amount",
+    "scope": {}
+}, {
+    "key": "apply_loan_employement_detail",
+    "value": "Share your employment details",
+    "scope": {}
+}, {
+    "key": "apply_loan_employement_type",
+    "value": "Employment Type",
+    "scope": {}
+}, {
+    "key": "apply_loan_employement_company_name",
+    "value": "Company Name",
+    "scope": {}
+}, {
+    "key": "apply_loan_employement_experience",
+    "value": "Work Experience",
+    "scope": {}
+}, {
+    "key": "apply_loan_monthly_salary",
+    "value": "Monthly income",
+    "scope": {}
+}, {
+    "key": "apply_loan_requested_amount",
+    "value": "Your requested Loan Amount :",
+    "scope": {}
+}, {
+    "key": "apply_loan_change_amount",
+    "value": "Change amount",
+    "scope": {}
+}, {
+    "key": "apply_loan_done",
+    "value": "Done",
+    "scope": {}
+}, {
+    "key": "apply_loan_other_income",
+    "value": "Add other income sources",
+    "scope": {}
+}, {
+    "key": "apply_loan_close",
+    "value": "Close",
+    "scope": {}
+}, {
+    "key": "apply_loan_emi_check",
+    "value": "CHECK YOUR EMI",
+    "scope": {}
+}, {
+    "key": "apply_loan_interest",
+    "value": "interest",
+    "scope": {}
+}, {
+    "key": "confirm_heading_message",
+    "value": "Check",
+    "scope": {}
+}, {
+    "key": "apply_loan_applicant_details",
+    "value": "Applicant details",
+    "scope": {}
+}, {
+    "key": "apply_loan_applicant_name",
+    "value": "Applicant Name",
+    "scope": {}
+}, {
+    "key": "apply_loan_employer_details",
+    "value": "Employer details",
+    "scope": {}
+}, {
+    "key": "apply_loan_employer_name",
+    "value": "Employer Name",
+    "scope": {}
+}, {
+    "key": "apply_loan_loan_details",
+    "value": "Loan details",
+    "scope": {}
+}, {
+    "key": "apply_loan_amount_applied",
+    "value": "Amount Applied",
+    "scope": {}
+}, {
+    "key": "apply_loan_repayment_schedule",
+    "value": "Repayment Schedule",
+    "scope": {}
+}, {
+    "key": "apply_loan_emi_applied",
+    "value": "EMI applied",
+    "scope": {}
+}, {
+    "key": "loan_apply_success_message",
+    "value": "Thank you for availing our services. Your Loan Application has been successfully submitted!",
+    "scope": {}
+}, {
+    "key": "loan_apply_success_suggestion",
+    "value": "What’s Next?",
+    "scope": {}
+}, {
+    "key": "loan_apply_success_upload_docs",
+    "value": "SUMBIT YOUR LOAN DOCUMENTS",
+    "scope": {}
+}, {
+    "key": "loan_upload_docs_terms_condition",
+    "value": "Please note that the amount you entered may not be eligible for the loan amount as if our requirements doesn’t satify with yours. Please read the documentation carefully.",
+    "scope": {}
+}, {
+    "key": "loan_apply_docs_upload_action",
+    "value": "UPLOAD DOCUMENTS",
+    "scope": {}
+}, {
+    "key": "loan_apply_docs_upload_postpone",
+    "value": "DO IT LATER",
+    "scope": {}
+}, {
+    "key": "apply_loan_message",
+    "value": "Please fill up the details to know your elgibility",
+    "scope": {}
+}, {
+    "key": "teller_approval_tasks_back_btn_title",
+    "value": "Back to Dashboard",
+    "scope": {}
+}, {
+    "key": "copyright",
+    "value": "2015 - 2016 Edgeverve Foundation",
+    "scope": {}
+}, {
+    "key": "find more",
+    "value": "find more",
+    "scope": {}
+}, {
+    "key": "apply now",
+    "value": "apply now",
+    "scope": {}
+}, {
+    "key": "loan_details",
+    "value": "Loan Details",
+    "scope": {}
+}, {
+    "key": "cancel_application",
+    "value": "CANCEL APPLICATION",
+    "scope": {}
+}, {
+    "key": "confirm_application",
+    "value": "Confirm Application",
+    "scope": {}
+}, {
+    "key": "know loan process",
+    "value": "know loan process",
+    "scope": {}
+}, {
+    "key": "Bank Fees",
+    "value": "Bank Fees",
+    "scope": {}
+}, {
+    "key": "Free Offset account",
+    "value": "Free Offset account",
+    "scope": {}
+}, {
+    "key": "Zero",
+    "value": "Zero",
+    "scope": {}
+}, {
+    "key": "Extra Repayment",
+    "value": "Extra Repayment",
+    "scope": {}
+}, {
+    "key": "check offers",
+    "value": "check offers",
+    "scope": {}
+}, {
+    "key": "status",
+    "value": "status",
+    "scope": {}
+}, {
+    "key": "Upload Documents",
+    "value": "Upload Documents",
+    "scope": {}
+}, {
+    "key": "Check Status",
+    "value": "Check Status",
+    "scope": {}
+}, {
+    "key": "Request Disbursal",
+    "value": "Request Disbursal",
+    "scope": {}
+}, {
+    "key": "loan_status_submit_docs",
+    "value": "Click here to submit the docs or know the status of the loan application",
+    "scope": {}
+}, {
+    "key": "login_welcome",
+    "value": "Welcome to Cassi Bank",
+    "scope": {}
+}, {
+    "key": "enter_details",
+    "value": "Please enter your username, email address or Customer ID.",
+    "scope": {}
+}, {
+    "key": "get_new_password",
+    "value": "Get New Password",
+    "scope": {}
+}, {
+    "key": "receive_password",
+    "value": "You will receive a link to create a new password.",
+    "scope": {}
+}, {
+    "key": "sign_up",
+    "value": "Sign Up",
+    "scope": {}
+}, {
+    "key": "teller_approved_actions_card",
+    "value": "Approved",
+    "scope": {}
+}, {
+    "key": "teller_personal_loan",
+    "value": "Personal Loan",
+    "scope": {}
+}, {
+    "key": "teller_home_loan",
+    "value": "Home Loan",
+    "scope": {}
+}, {
+    "key": "teller_car_loan",
+    "value": "Car Loan",
+    "scope": {}
+}, {
+    "key": "teller_welcome_msg",
+    "value": "Welcome",
+    "scope": {}
+}, {
+    "key": "teller_loan_detail_back_btn_title",
+    "value": "All pending actions",
+    "scope": {}
+}, {
+    "key": "teller_loan_detail_status_title",
+    "value": "Status : Document Verification",
+    "scope": {}
+}, {
+    "key": "teller_paper_tab_bank_statement",
+    "value": "Bank statements",
+    "scope": {}
+}, {
+    "key": "teller_paper_tab_salary_slip",
+    "value": "Salary slips",
+    "scope": {}
+}, {
+    "key": "teller_paper_tab_id_proof",
+    "value": "ID proof",
+    "scope": {}
+}, {
+    "key": "teller_loan_detail_footer_title",
+    "value": "*Federal law mandates financial institutions to obtain and verify proof documents in order to open an account",
+    "scope": {}
+}, {
+    "key": "reject_application",
+    "value": "REJECT APPLICATION",
+    "scope": {}
+}, {
+    "key": "accept_application",
+    "value": "ACCEPT APPLICATION",
+    "scope": {}
+}, {
+    "key": "teller_pending_actions_card_title",
+    "value": "Your pending actions",
+    "scope": {}
+}, {
+    "key": "Location",
+    "value": "Location",
+    "scope": {}
+}, {
+    "key": "Cancel",
+    "value": "Cancel",
+    "scope": {}
+}, {
+    "key": "Apply",
+    "value": "Apply",
+    "scope": {}
+}, {
+    "key": "upload_documents_title",
+    "value": "Upload the documents. There is a lot of paperwork for loans.",
+    "scope": {}
+}, {
+    "key": "bank_statments",
+    "value": "Bank Statements",
+    "scope": {}
+}, {
+    "key": "three_months_bank_statement",
+    "value": "(Last 3 months bank statement)",
+    "scope": {}
+}, {
+    "key": "upload",
+    "value": "UPLOAD",
+    "scope": {}
+}, {
+    "key": "salary_slip",
+    "value": "Salary Slips",
+    "scope": {}
+}, {
+    "key": "three_months_salary_slip",
+    "value": "(Last 3 months salary slip)",
+    "scope": {}
+}, {
+    "key": "id_proof",
+    "value": "ID Proof",
+    "scope": {}
+}, {
+    "key": "upload_documents",
+    "value": "UPLOAD DOCUMENTS",
+    "scope": {}
+}, {
+    "key": "save",
+    "value": "Save",
+    "scope": {}
+}, {
+    "key": "clear",
+    "value": "Clear",
+    "scope": {}
+}, {
+    "key": "reset",
+    "value": "Reset",
+    "scope": {}
+}, {
+    "key": "delete",
+    "value": "Delete",
+    "scope": {}
+}, {
+    "key": "no_records_found",
+    "value": "No records found.",
+    "scope": {}
+}, {
+    "key": "create_new",
+    "value": "Create New",
+    "scope": {}
+}, {
+    "key": "apply_loan_terms_conditions",
+    "value": "Please note that the amount you entered may not be eligible for the loan amount as if our requirements doesn’t satify with yours. Please read the documentation carefully.",
+    "scope": {}
+}, {
+    "key": "Cancel Application",
+    "value": "Cancel Application",
+    "scope": {}
+}, {
+    "key": "Next",
+    "value": "Next",
+    "scope": {}
+}, {
+    "key": "Review And submit",
+    "value": "Review And submit",
+    "scope": {}
+}, {
+    "key": "Edit Application",
+    "value": "Edit Application",
+    "scope": {}
+}, {
+    "key": "Submit Application",
+    "value": "Submit Application",
+    "scope": {}
+}, {
+    "key": "other_income_form_source",
+    "value": "Income Source details",
+    "scope": {}
+}, {
+    "key": "other_income_form_clear",
+    "value": "Clear",
+    "scope": {}
+}, {
+    "key": "other_income_form_save",
+    "value": "Save",
+    "scope": {}
+}, {
+    "key": "no.",
+    "value": "",
+    "scope": {}
+}, {
+    "key": "Hi",
+    "value": "Hi",
+    "scope": {}
+}, {
+    "key": "apply_loan_terms_conditions_apply",
+    "value": "*Conditions apply",
+    "scope": {}
+}
+ ]

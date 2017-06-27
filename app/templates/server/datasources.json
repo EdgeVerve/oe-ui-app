@@ -1,0 +1,24 @@
+{
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/commondb",
+    "database": "commondb",
+    "password": "admin",
+    "name": "db",
+    "connector": "mongodb",
+    "user": "admin",
+    "connectionTimeout": 50000
+  },
+  "appdb": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/appdb",
+    "database": "appdb",
+    "password": "admin",
+    "name": "evapp",
+    "connector": "mongodb",
+    "user": "admin",
+    "connectionTimeout": 50000
+  }
+}

@@ -1,0 +1,794 @@
+{
+    "Line1": {
+        "message": "Line1"
+    },
+    "Line2": {
+        "message": "Line2"
+    },
+    "City": {
+        "message": "City"
+    },
+    "Province": {
+        "message": "Province"
+    },
+    "Country": {
+        "message": "Country"
+    },
+    "Zip Code": {
+        "message": "Zip Code"
+    },
+    "Profile": {
+        "message": "Profile"
+    },
+    "First Name": {
+        "message": "First Name"
+    },
+    "Last Name": {
+        "message": "Last Name"
+    },
+    "Date Of Birth": {
+        "message": "Date Of Birth"
+    },
+    "Address": {
+        "message": "Address"
+    },
+    "Phone Number": {
+        "message": "Phone Number"
+    },
+    "Image": {
+        "message": "Image"
+    },
+    "User": {
+        "message": "User"
+    },
+    "Status": {
+        "message": "Status"
+    },
+    "App User": {
+        "message": "App User"
+    },
+    "Label": {
+        "message": "Label"
+    },
+    "Username": {
+        "message": "Username"
+    },
+    "Access Tokens": {
+        "message": "Access Tokens"
+    },
+    "Model": {
+        "message": "Model"
+    },
+    "Password": {
+        "message": "Password"
+    },
+    "Err Code": {
+        "message": "Err Code"
+    },
+    "Err Message": {
+        "message": "Err Message"
+    },
+    "More Information": {
+        "message": "More Information"
+    },
+    "Event History Array": {
+        "message": "Event History Array"
+    },
+    "Host Name": {
+        "message": "Host Name"
+    },
+    "Timestamp": {
+        "message": "Timestamp"
+    },
+    "Schedule": {
+        "message": "Schedule"
+    },
+    "Model Query": {
+        "message": "Model Query"
+    },
+    "Data Query": {
+        "message": "Data Query"
+    },
+    "Event Name": {
+        "message": "Event Name"
+    },
+    "Enable": {
+        "message": "Enable"
+    },
+    "Model Id": {
+        "message": "Model Id"
+    },
+    "Nodde Id": {
+        "message": "Nodde Id"
+    },
+    "Lock Status": {
+        "message": "Lock Status"
+    },
+    "Data": {
+        "message": "Data"
+    },
+    "Time": {
+        "message": "Time"
+    },
+    "Properties": {
+        "message": "Properties"
+    },
+    "Readonly": {
+        "message": "Readonly"
+    },
+    "Plural": {
+        "message": "Plural"
+    },
+    "Base": {
+        "message": "Base"
+    },
+    "Strict": {
+        "message": "Strict"
+    },
+    "Public": {
+        "message": "Public"
+    },
+    "Id Injection": {
+        "message": "Id Injection"
+    },
+    "Validate Upsert": {
+        "message": "Validate Upsert"
+    },
+    "Validations": {
+        "message": "Validations"
+    },
+    "Relations": {
+        "message": "Relations"
+    },
+    "Acls": {
+        "message": "Acls"
+    },
+    "Methods": {
+        "message": "Methods"
+    },
+    "Filebased": {
+        "message": "Filebased"
+    },
+    "Composite Models": {
+        "message": "Composite Models"
+    },
+    "Composite Transaction": {
+        "message": "Composite Transaction"
+    },
+    "Autoscope": {
+        "message": "Autoscope"
+    },
+    "Hierarchy Scope": {
+        "message": "Hierarchy Scope"
+    },
+    "Mixins": {
+        "message": "Mixins"
+    },
+    "Mongodb": {
+        "message": "Mongodb"
+    },
+    "Variant Of": {
+        "message": "Variant Of"
+    },
+    "Upward": {
+        "message": "Upward"
+    },
+    "Options": {
+        "message": "Options"
+    },
+    "Ev Validations": {
+        "message": "Ev Validations"
+    },
+    "Enable Default U I": {
+        "message": "Enable Default U I"
+    },
+    "Enable Remote Proxy": {
+        "message": "Enable Remote Proxy"
+    },
+    "Client Model Name": {
+        "message": "Client Model Name"
+    },
+    "Disabled": {
+        "message": "Disabled"
+    },
+    "Default Rules": {
+        "message": "Default Rules"
+    },
+    "Validation Rules": {
+        "message": "Validation Rules"
+    },
+    "Flow": {
+        "message": "Flow"
+    },
+    "Token": {
+        "message": "Token"
+    },
+    "State": {
+        "message": "State"
+    },
+    "Failed Attemps": {
+        "message": "Failed Attemps"
+    },
+    "Journal Name": {
+        "message": "Journal Name"
+    },
+    "Saved Ctx": {
+        "message": "Saved Ctx"
+    },
+    "Saved Data": {
+        "message": "Saved Data"
+    },
+    "Instance Version": {
+        "message": "Instance Version"
+    },
+    "Is First Pending": {
+        "message": "Is First Pending"
+    },
+    "Rule Name": {
+        "message": "Rule Name"
+    },
+    "Personalization Rule": {
+        "message": "Personalization Rule"
+    },
+    "Times Sent": {
+        "message": "Times Sent"
+    },
+    "Uri": {
+        "message": "Uri"
+    },
+    "Method": {
+        "message": "Method"
+    },
+    "Hash On": {
+        "message": "Hash On"
+    },
+    "State Obj": {
+        "message": "State Obj"
+    },
+    "Last Updated": {
+        "message": "Last Updated"
+    },
+    "Actor Id": {
+        "message": "Actor Id"
+    },
+    "Key": {
+        "message": "Key"
+    },
+    "Value": {
+        "message": "Value"
+    },
+    "Tenant Name": {
+        "message": "Tenant Name"
+    },
+    "User Id": {
+        "message": "User Id"
+    },
+    "Title": {
+        "message": "Title"
+    },
+    "Content": {
+        "message": "Content"
+    },
+    "Page Name": {
+        "message": "Page Name"
+    },
+    "Node Tree": {
+        "message": "Node Tree"
+    },
+    "Element Config": {
+        "message": "Element Config"
+    },
+    "Related Scope": {
+        "message": "Related Scope"
+    },
+    "Page Config": {
+        "message": "Page Config"
+    },
+    "Custom Scope": {
+        "message": "Custom Scope"
+    },
+    "Tag": {
+        "message": "Tag"
+    },
+    "Icon": {
+        "message": "Icon"
+    },
+    "Config": {
+        "message": "Config"
+    },
+    "Uitype": {
+        "message": "Uitype"
+    },
+    "Default": {
+        "message": "Default"
+    },
+    "Required": {
+        "message": "Required"
+    },
+    "Hidden": {
+        "message": "Hidden"
+    },
+    "Class": {
+        "message": "Class"
+    },
+    "Minlength": {
+        "message": "Minlength"
+    },
+    "Maxlength": {
+        "message": "Maxlength"
+    },
+    "Min": {
+        "message": "Min"
+    },
+    "Max": {
+        "message": "Max"
+    },
+    "Precision": {
+        "message": "Precision"
+    },
+    "Pattern": {
+        "message": "Pattern"
+    },
+    "Listdata": {
+        "message": "Listdata"
+    },
+    "Listid": {
+        "message": "Listid"
+    },
+    "Listurl": {
+        "message": "Listurl"
+    },
+    "Bindto": {
+        "message": "Bindto"
+    },
+    "Ui Type": {
+        "message": "Ui Type"
+    },
+    "Width": {
+        "message": "Width"
+    },
+    "Min Width": {
+        "message": "Min Width"
+    },
+    "Sort": {
+        "message": "Sort"
+    },
+    "First To Sort": {
+        "message": "First To Sort"
+    },
+    "Formatter": {
+        "message": "Formatter"
+    },
+    "Renderer": {
+        "message": "Renderer"
+    },
+    "Href": {
+        "message": "Href"
+    },
+    "Cell Class": {
+        "message": "Cell Class"
+    },
+    "Cell Class Rules": {
+        "message": "Cell Class Rules"
+    },
+    "Value Getter": {
+        "message": "Value Getter"
+    },
+    "Visible": {
+        "message": "Visible"
+    },
+    "Editor Form Url": {
+        "message": "Editor Form Url"
+    },
+    "Column Configs": {
+        "message": "Column Configs"
+    },
+    "Grid Identifier": {
+        "message": "Grid Identifier"
+    },
+    "Column Fields": {
+        "message": "Column Fields"
+    },
+    "Dialog Meta Data": {
+        "message": "Dialog Meta Data"
+    },
+    "Dialog Template Url": {
+        "message": "Dialog Template Url"
+    },
+    "Placeholders": {
+        "message": "Placeholders"
+    },
+    "Models": {
+        "message": "Models"
+    },
+    "Top Level": {
+        "message": "Top Level"
+    },
+    "Employment": {
+        "message": "Employment"
+    },
+    "Sequence": {
+        "message": "Sequence"
+    },
+    "Children": {
+        "message": "Children"
+    },
+    "Attributes": {
+        "message": "Attributes"
+    },
+    "Template Name": {
+        "message": "Template Name"
+    },
+    "File Path": {
+        "message": "File Path"
+    },
+    "Route Path": {
+        "message": "Route Path"
+    },
+    "Model Alias": {
+        "message": "Model Alias"
+    },
+    "Fields": {
+        "message": "Fields"
+    },
+    "Grid Config": {
+        "message": "Grid Config"
+    },
+    "Polymer Config": {
+        "message": "Polymer Config"
+    },
+    "Auto Inject Fields": {
+        "message": "Auto Inject Fields"
+    },
+    "Exclude Fields": {
+        "message": "Exclude Fields"
+    },
+    "Component": {
+        "message": "Component"
+    },
+    "Field": {
+        "message": "Field"
+    },
+    "Text Content": {
+        "message": "Text Content"
+    },
+    "_attributes": {
+        "message": "_attributes"
+    },
+    "Modeltype": {
+        "message": "Modeltype"
+    },
+    "Skip Missing Properties": {
+        "message": "Skip Missing Properties"
+    },
+    "Show Title In Navbar": {
+        "message": "Show Title In Navbar"
+    },
+    "Resturl": {
+        "message": "Resturl"
+    },
+    "Controls": {
+        "message": "Controls"
+    },
+    "Exclude": {
+        "message": "Exclude"
+    },
+    "Functions": {
+        "message": "Functions"
+    },
+    "Behaviors": {
+        "message": "Behaviors"
+    },
+    "Master Page": {
+        "message": "Master Page"
+    },
+    "Path": {
+        "message": "Path"
+    },
+    "Import": {
+        "message": "Import"
+    },
+    "Target Element": {
+        "message": "Target Element"
+    },
+    "Retain Instance": {
+        "message": "Retain Instance"
+    },
+    "Transitions": {
+        "message": "Transitions"
+    },
+    "Error": {
+        "message": "Error"
+    },
+    "Update Profile": {
+        "message": "Update Profile"
+    },
+    "logout": {
+        "message": "Logout"
+    },
+    "apply_loan_amount": {
+        "message": "1. Amount Request"
+    },
+    "apply_loan_employement": {
+        "message": "2. Employement Details"
+    },
+    "apply_loan_eligibility": {
+        "message": "3. Eligibility"
+    },
+    "apply_loan_amount_message": {
+        "message": "Enter the amount you need"
+    },
+    "apply_loan_amount_label": {
+        "message": "Amount"
+    },
+    "apply_loan_employement_detail": {
+        "message": "Share your employment details"
+    },
+    "apply_loan_employement_type": {
+        "message": "Employment Type"
+    },
+    "apply_loan_employement_company_name": {
+        "message": "Company Name"
+    },
+    "apply_loan_employement_experience": {
+        "message": "Work Experience"
+    },
+    "apply_loan_monthly_salary": {
+        "message": "Monthly income"
+    },
+    "apply_loan_requested_amount": {
+        "message": "Your requested Loan Amount :"
+    },
+    "apply_loan_change_amount": {
+        "message": "Change amount"
+    },
+    "apply_loan_done": {
+        "message": "Done"
+    },
+    "apply_loan_other_income": {
+        "message": "Add other income sources"
+    },
+    "apply_loan_close": {
+        "message": "Close"
+    },
+    "apply_loan_emi_check": {
+        "message": "CHECK YOUR EMI"
+    },
+    "apply_loan_interest": {
+        "message": "interest"
+    },
+    "confirm_heading_message": {
+        "message": "Check"
+    },
+    "apply_loan_applicant_details": {
+        "message": "Applicant details"
+    },
+    "apply_loan_applicant_name": {
+        "message": "Applicant Name"
+    },
+    "apply_loan_employer_details": {
+        "message": "Employer details"
+    },
+    "apply_loan_employer_name": {
+        "message": "Employer Name"
+    },
+    "apply_loan_loan_details": {
+        "message": "Loan details"
+    },
+    "apply_loan_amount_applied": {
+        "message": "Amount Applied"
+    },
+    "apply_loan_repayment_schedule": {
+        "message": "Repayment Schedule"
+    },
+    "apply_loan_emi_applied": {
+        "message": "EMI applied"
+    },
+    "loan_apply_success_message": {
+        "message": "Thank you for availing our services. Your Loan Application has been successfully submitted!"
+    },
+    "loan_apply_success_suggestion": {
+        "message": "What’s Next?"
+    },
+    "loan_apply_success_upload_docs": {
+        "message": "SUMBIT YOUR LOAN DOCUMENTS"
+    },
+    "loan_upload_docs_terms_condition": {
+        "message": "Please note that the amount you entered may not be eligible for the loan amount as if our requirements doesn’t satify with yours. Please read the documentation carefully."
+    },
+    "loan_apply_docs_upload_action": {
+        "message": "UPLOAD DOCUMENTS"
+    },
+    "loan_apply_docs_upload_postpone": {
+        "message": "DO IT LATER"
+    },
+    "apply_loan_message": {
+        "message": "Please fill up the details to know your elgibility"
+    },
+    "teller_approval_tasks_back_btn_title": {
+        "message": "Back to Dashboard"
+    },
+    "copyright": {
+        "message": "2015 - 2016 Edgeverve Foundation"
+    },
+    "find more": {
+        "message": "find more"
+    },
+    "apply now": {
+        "message": "apply now"
+    },
+    "loan_details": {
+        "message": "Loan Details"
+    },
+    "cancel_application": {
+        "message": "CANCEL APPLICATION"
+    },
+    "confirm_application": {
+        "message": "Confirm Application"
+    },
+    "know loan process": {
+        "message": "know loan process"
+    },
+    "Bank Fees": {
+        "message": "Bank Fees"
+    },
+    "Free Offset account": {
+        "message": "Free Offset account"
+    },
+    "Zero": {
+        "message": "Zero"
+    },
+    "Extra Repayment": {
+        "message": "Extra Repayment"
+    },
+    "check offers": {
+        "message": "check offers"
+    },
+    "status": {
+        "message": "status"
+    },
+    "Upload Documents": {
+        "message": "Upload Documents"
+    },
+    "Check Status": {
+        "message": "Check Status"
+    },
+    "Request Disbursal": {
+        "message": "Request Disbursal"
+    },
+    "loan_status_submit_docs": {
+        "message": "Click here to submit the docs or know the status of the loan application"
+    },
+    "login_welcome": {
+        "message": "Welcome to Cassi Bank"
+    },
+    "enter_details": {
+        "message": "Please enter your username, email address or Customer ID."
+    },
+    "get_new_password": {
+        "message": "Get New Password"
+    },
+    "receive_password": {
+        "message": "You will receive a link to create a new password."
+    },
+    "sign_up": {
+        "message": "Sign Up"
+    },
+    "teller_approved_actions_card": {
+        "message": "Approved"
+    },
+    "teller_personal_loan": {
+        "message": "Personal Loan"
+    },
+    "teller_home_loan": {
+        "message": "Home Loan"
+    },
+    "teller_car_loan": {
+        "message": "Car Loan"
+    },
+    "teller_welcome_msg": {
+        "message": "Welcome"
+    },
+    "teller_loan_detail_back_btn_title": {
+        "message": "All pending actions"
+    },
+    "teller_loan_detail_status_title": {
+        "message": "Status : Document Verification"
+    },
+    "teller_paper_tab_bank_statement": {
+        "message": "Bank statements"
+    },
+    "teller_paper_tab_salary_slip": {
+        "message": "Salary slips"
+    },
+    "teller_paper_tab_id_proof": {
+        "message": "ID proof"
+    },
+    "teller_loan_detail_footer_title": {
+        "message": "*Federal law mandates financial institutions to obtain and verify proof documents in order to open an account"
+    },
+    "reject_application": {
+        "message": "REJECT APPLICATION"
+    },
+    "accept_application": {
+        "message": "ACCEPT APPLICATION"
+    },
+    "teller_pending_actions_card_title": {
+        "message": "Your pending actions"
+    },
+    "Location": {
+        "message": "Location"
+    },
+    "Cancel": {
+        "message": "Cancel"
+    },
+    "Apply": {
+        "message": "Apply"
+    },
+    "upload_documents_title": {
+        "message": "Upload the documents. There is a lot of paperwork for loans."
+    },
+    "bank_statments": {
+        "message": "Bank Statements"
+    },
+    "three_months_bank_statement": {
+        "message": "(Last 3 months bank statement)"
+    },
+    "upload": {
+        "message": "UPLOAD"
+    },
+    "salary_slip": {
+        "message": "Salary Slips"
+    },
+    "three_months_salary_slip": {
+        "message": "(Last 3 months salary slip)"
+    },
+    "id_proof": {
+        "message": "ID Proof"
+    },
+    "upload_documents": {
+        "message": "UPLOAD DOCUMENTS"
+    },
+    "save": {
+        "message": "Save"
+    },
+    "clear": {
+        "message": "Clear"
+    },
+    "reset": {
+        "message": "Reset"
+    },
+    "delete": {
+        "message": "Delete"
+    },
+    "no_records_found": {
+        "message": "No records found."
+    },
+    "create_new": {
+        "message": "Create New"
+    },
+    "apply_loan_terms_conditions": {
+        "message": "Please note that the amount you entered may not be eligible for the loan amount as if our requirements doesn’t satify with yours. Please read the documentation carefully."
+    },
+    "Cancel Application": {
+        "message": "Cancel Application"
+    },
+    "Next": {
+        "message": "Next"
+    },
+    "Review And submit": {
+        "message": "Review And submit"
+    },
+    "Edit Application": {
+        "message": "Edit Application"
+    },
+    "Submit Application": {
+        "message": "Submit Application"
+    },
+    "no.": {
+        "message": ""
+    },
+    "Hi": {
+        "message": "Hi"
+    }
+}

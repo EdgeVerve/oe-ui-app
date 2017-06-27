@@ -1,0 +1,62 @@
+<link rel="import" href="../bower_components/meta-polymer/meta-polymer.html">
+<link rel="import" href="../bower_components/oe-info/oe-info.html">
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../bower_components/oe-data-table/oe-data-table.html">
+<link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="../bower_components/iron-pages/iron-pages.html">
+
+<dom-module id="welcome-element">
+  <template>
+
+    <style>
+     
+    </style>
+
+    <div>
+<h3>Congratulations on getting started to oe-ui-app!</h3>
+    <h4>You have logged in with username as "admin" and password as "admin"!</h4>
+      <h4>Create, Modify or Delete UI at run time using oeCloud.io. Follow <a href="https://www.oeCloud.io/guide/routes-navigation">guides here</a></h4> 
+    </div>
+  </template>
+  <script>
+    MetaPolymer({
+      is: 'welcome-element',
+      properties: {
+        columns: {
+          type: Array
+        },
+        user: {
+          type: Object
+        },
+        selectedPage: {
+          type: Number,
+          value: 0
+        }
+      },
+      attached: function () {
+        var columns = [{
+            key: "name",
+            label: "Name",
+            type: "String",
+            readOnly: true,
+            disableFilter: true,
+            disableSort: true
+          },
+          {
+            key: "relation",
+            label: "Relation",
+            type: "String",
+            readOnly: true,
+            disableFilter: true,
+            disableSort: true
+          }
+        ]
+        this.set('columns', columns);
+        this.async(function () {
+          this.set('user', JSON.parse(sessionStorage.getItem('userProfile')));
+        });
+      }
+    });
+  </script>
+</dom-module>

@@ -1,0 +1,32 @@
+{
+  "name": "Country",
+  "plural": "Countries",
+  "base": "BaseEntity",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "code": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "activated": {
+      "type": "boolean",
+      "required": false
+    },
+    "zippattern": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

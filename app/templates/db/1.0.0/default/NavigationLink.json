@@ -1,0 +1,8 @@
+[{
+  "name": "profile",
+  "url": "/profile",
+  "label": "Profile",
+  "icon": "social:person",
+  "topLevel": true,
+  "group":"examples"
+}]

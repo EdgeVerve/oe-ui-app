@@ -1,0 +1,45 @@
+[
+  {
+    "image": "http://placehold.it/32x32",
+    "name": "Susie Barton",
+    "gender": "female",
+    "userId": "admin",
+    "appUserId": "admin",
+    "company": "QNEKT",
+    "email": "susiebarton@qnekt.com",
+    "phone": "+1 (939) 411-3360",
+    "address": [
+      {
+        "line1": "279, Myrtle Avenue",
+        "city": "Saddlebrooke",
+        "province": "Virgin Islands",
+        "country": "USA",
+        "zipCode": 287445
+      }
+    ],
+    "bio": "Sint fugiat reprehenderit enim qui esse sint anim sunt quis ut nulla eu. Cillum sunt cupidatat aute nisi. Sit esse consectetur occaecat exercitation elit nulla amet. Proident adipisicing do sit sit dolore irure ad id cupidatat esse duis. Id ullamco ut ex sint non labore laboris. Dolor commodo non proident deserunt culpa culpa et commodo officia qui velit.\r\n",
+    "dateOfBirth": "2014-05-31",
+    "familyMembers": [
+      {
+        "id": 0,
+        "name": "Christa Haynes",
+        "relation": "Father"
+      },
+      {
+        "id": 1,
+        "name": "Johanna Gordon",
+        "relation": "Mother"
+      },
+      {
+        "id": 2,
+        "name": "Moreno Cain",
+        "relation": "Brother"
+      },
+      {
+        "id": 3,
+        "name": "John Hicks",
+        "relation": "Sister"
+      }
+    ]
+  }
+]

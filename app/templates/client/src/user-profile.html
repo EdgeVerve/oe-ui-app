@@ -1,0 +1,152 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/oe-info/oe-info.html">
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../bower_components/oe-data-table/oe-data-table.html">
+<link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="../bower_components/iron-pages/iron-pages.html">
+
+<dom-module id="user-profile">
+  <template>
+
+    <style>
+      .profile-section {
+        margin-bottom: 10px;
+        border-bottom: 1px solid #cfcfcf;
+      }
+
+      .profile-name {
+        font-weight: 500;
+        font-size: 20px;
+      }
+
+      .profile-content {
+        padding: 10px 0px;
+
+        @apply(--layout-horizontal);
+      }
+
+      .profile-image {
+        margin: 10px;
+        margin-right: 30px;
+        border-radius: 50%;
+      }
+
+      .user-infos {
+        background : #e0e0e0;
+        @apply(--layout-vertical);
+      }
+
+      .user-info-primary {
+        @apply(--layout-horizontal);
+        @apply(--layout-around-justified);
+      }
+
+      .user-info-secondary {
+        @apply(--layout-flex-2);
+      }
+
+      paper-tabs {
+        --paper-tabs-selection-bar-color: #212121;
+      }
+
+      oe-data-table {
+        background: #fff;
+      }
+
+      .address-card {
+        background: #fff;
+        padding: 10px;
+        display: inline-block;
+        margin: 0px 10px;
+      }
+    </style>
+
+    <div>
+
+      <div class="profile-section">
+        <div class="profile-content">
+          <div>
+            <iron-image class="profile-image" src="{{user.image}}"></iron-image>
+          </div>
+          <div>
+            <div class="profile-name"> {{user.name}} </div>
+            <oe-info label="Bio" value="{{user.bio}}"></oe-info>
+          </div>
+        </div>
+      </div>
+
+      <paper-tabs selected="{{selectedPage}}">
+        <paper-tab> About </paper-tab>
+        <paper-tab> Family Members </paper-tab>
+      </paper-tabs>
+
+      <iron-pages selected="{{selectedPage}}">
+        <div class="profile-content user-infos">
+          <div class="user-info-primary">
+            <oe-info label="Name" value="{{user.name}}"></oe-info>
+            <oe-info label="Date of Birth" type="date" value="{{user.dateOfBirth}}"></oe-info>
+            <oe-info label="Gender" value="{{user.gender}}"></oe-info>
+            <oe-info label="E-Mail" value="{{user.email}}"></oe-info>
+            <oe-info label="Phone" value="{{user.phone}}"></oe-info>
+          </div>
+          <div class="user-info-secondary">
+            <h4 style="margin-left: 10px;"> Address </h4>
+            <template is="dom-repeat" items="{{user.address}}">
+              <paper-material class="address-card">
+                <oe-info label="Line 1" value="{{item.line1}}"></oe-info>
+                <oe-info label="city" value="{{item.city}}"></oe-info>
+                <oe-info label="Province" value="{{item.province}}"></oe-info>
+                <oe-info label="Country" value="{{item.country}}"></oe-info>
+                <oe-info label="Zip Code" value="{{item.zipCode}}"></oe-info>
+              </paper-material>
+            </template>
+          </div>
+        </div>
+        <div>
+          <oe-data-table label="Family" disable-selection disabled columns=[[columns]] items={{user.familyMembers}}></oe-data-table>
+        </div>
+      </iron-pages>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'user-profile',
+      properties: {
+        columns: {
+          type: Array
+        },
+        user: {
+          type: Object
+        },
+        selectedPage: {
+          type: Number,
+          value: 0
+        }
+      },
+      attached: function () {
+        var columns = [{
+            key: "name",
+            label: "Name",
+            type: "String",
+            readOnly: true,
+            disableFilter: true,
+            disableSort: true
+          },
+          {
+            key: "relation",
+            label: "Relation",
+            type: "String",
+            readOnly: true,
+            disableFilter: true,
+            disableSort: true
+          }
+        ]
+        this.set('columns', columns);
+        this.async(function () {
+          this.set('user', JSON.parse(sessionStorage.getItem('userProfile')));
+        });
+      }
+    });
+  </script>
+</dom-module>

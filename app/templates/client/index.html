@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>oe-cloud app</title>
+  <link rel="icon" href="images/favicon.ico">
+  <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+
+  <link rel="import" href="../bower_components/polymer/polymer.html">
+  <link rel="import" href="src/oe-app.html">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto';
+      line-height: 1.5;
+      min-height: 100vh;
+      background: #efefef;
+    }
+  </style>
+</head>
+
+<body unresolved>
+  <span id="browser-sync-binding"></span>
+  <oe-app></oe-app>
+  <script>
+    window.OEi18nMsg = window.OEi18nMsg || {
+      lang: null,
+      url: 'locales',
+      locales: {}
+    };
+
+    (function (send) {
+
+      XMLHttpRequest.prototype.send = function () {
+
+        this.setRequestHeader('x-access-token', sessionStorage.auth_token);
+        this.setRequestHeader('lang', window.OEi18nMsg.lang || window.navigator.userLanguage || window.navigator.language);
+
+        var device = 'desktop';
+        if (navigator.userAgent.match(/Mobi/)) {
+          device = 'mobile';
+        }
+        if (navigator.userAgent.match(/iPad/)) {
+          device = 'tablet';
+        }
+        this.setRequestHeader('device', device);
+
+        send.apply(this, arguments);
+      };
+
+    })(XMLHttpRequest.prototype.send);
+
+    (function (document) {
+
+      var t = document.querySelector('oe-app');
+
+      // The dom-change event signifies when the template has stamped its DOM.
+      t.addEventListener('dom-change', function () {
+        // auto-binding template is ready.
+        console.log('dom-change for main body');
+        t.loggedin = sessionStorage.auth_token ? true : false;
+
+        if (!t.loggedin) {
+          // location.assign('login.html');
+        }
+      });
+    })(document);
+
+    OEi18nMsg.url = '/api/Literals/render';
+    OEi18nMsg.lang = (sessionStorage.profile_region === 'FR' ? 'fr' : 'en-US');
+    Platform.performMicrotaskCheckpoint();
+  </script>
+</body>
+
+</html>

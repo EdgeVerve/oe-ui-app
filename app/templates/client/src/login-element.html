@@ -1,0 +1,174 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+<link rel="import" href="../bower_components/oe-input/oe-input.html">
+<link rel="import" href="../bower_components/oe-combo/oe-combo.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../bower_components/iron-form/iron-form.html">
+<link rel="import" href="../behaviors/ajax-behavior.html">
+
+<dom-module id="login-element">
+  <template>
+
+    <style is="custom-style" include="iron-flex iron-flex-alignment"></style>
+    <style>
+      .main-container {
+        background: #1724BA;
+        height: 100vh;
+      }
+
+      .footer-message {
+        opacity: 0.8;
+        font-size: 14px;
+        color: var(--text-primary-color);
+        width: 700px;
+        height: 36px;
+        margin-top: 100px;
+      }
+
+      .heading {
+        font-size: 32px;
+        color: var(--text-primary-color);
+      }
+
+      .user-message {
+        font-size: 14px;
+        color: var(--text-primary-color);
+        letter-spacing: 0.44px;
+        margin-top: 40px;
+        cursor: pointer;
+      }
+
+      .form {
+        background: rgba(255, 255, 255, 0.90);
+        border-radius: 4px;
+        width: 360px;
+        height: 100px;
+        margin: 20px 0px;
+      }
+
+      .custom-input {
+        --paper-input-container-label: {
+          color: #333333;
+          opacity: 0.38;
+          font-size: 16px;
+        }
+        --paper-input-container: {
+          text-align: center;
+        }
+        --paper-input-container-underline: {
+          display: none;
+        }
+        --paper-input-container-underline-focus: {
+          display: none;
+        }
+        --paper-input-container-input-focus: {
+          font-size: 16px;
+          color: #333333;
+          letter-spacing: 0;
+        }
+        letter-spacing: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+        height: 49px;
+      }
+
+      .button paper-button {
+        background: var(--text-primary-color);
+        border-radius: 60px;
+        width: 360px;
+        height: 48px;
+        font-size: 14px;
+        color:  #1724BA;
+        letter-spacing: 0.5px;
+      }
+
+      .logo iron-image {
+        width: 40px;
+        height: 40px;
+      }
+
+      .logo {
+        margin-bottom: 20px;
+      }
+    </style>
+
+    <div class="main-container layout vertical center-center">
+      <div class="body-content">
+        <div class="logo layout center-center horizontal">
+          <iron-image sizing="cover" src="/images/logo.png"></iron-image>
+        </div>
+        <div class="heading layout center-center horizontal">
+          <i18n-msg msgid="login_welcome">Welcome to oe-cloud-ui-app</i18n-msg>
+        </div>
+        <div class="form">
+          <form is="iron-form" id="loginForm">
+            <oe-input class="custom-input" required no-label-float label="User Name" value="{{username}}"></oe-input>
+            <oe-input class="custom-input" required type="password" no-label-float label="Password" value="{{password}}"></oe-input>
+          </form>
+        </div>
+        <div class="button">
+          <paper-button on-tap="login">
+            <i18n-msg msgid="signin">
+              SIGN IN
+            </i18n-msg>
+          </paper-button>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: "login-element",
+      properties: {
+        username: {
+          type: String,
+          value: function () {
+            return "admin";
+          }
+        },
+        password: {
+          type: String,
+          value: function () {
+            return "admin";
+          }
+        }
+      },
+      behaviors: [
+        baseUtils.ajaxBehavior
+      ],
+      login: function (e) {
+        if (!this.checkValid())
+          return;
+        var loginObj = {
+          username: this.username,
+          password: this.password,
+        };
+        var loginUrl = '/auth/local';
+        var self = this;
+        self.makeAjaxCall(loginUrl, 'post', loginObj, null, null, function (err, resp) {
+          if (err) {
+            this.resolveError(err);
+          } else {
+            sessionStorage.auth_token = resp.access_token;
+            sessionStorage.userId = resp.userId;
+            localStorage.swagger_accessToken = resp.access_token;
+            sessionStorage.username = this.username;
+            self.makeAjaxCall('/api/AppUsers/me/profile', 'get', null, null, null, function (err, resp) {
+              if (!err) {
+                sessionStorage.setItem('userProfile', JSON.stringify(resp));
+              }
+              self.fire('login-success');
+              window.location.reload();
+            });
+          }
+        }.bind(this));
+      },
+      checkValid: function () {
+        return this.$.loginForm.validate();
+      },
+      signup: function (e) {
+        window.ev_navigate_to('/signup');
+      }
+    });
+  </script>
+</dom-module>

@@ -1,0 +1,23 @@
+{
+  "name": "AppUser",
+  "plural": "AppUsers",
+  "base": "BaseUser",
+  "strict": false,
+  "properties": {
+
+  },
+  "validations": [],
+  "relations": {
+    "profile": {
+      "type": "hasOne",
+      "model": "UserInfo"
+    }
+  },
+  "acls": [{
+    "principalType": "ROLE",
+    "principalId": "$owner",
+    "permission": "ALLOW",
+    "accessType": "*",
+    "property": "*"
+  }]
+}

@@ -1,0 +1,19 @@
+[{
+    "type": "elem",
+    "name": "user-profile",
+    "path": "/profile",
+    "import": "src/user-profile.html"
+  },
+  {
+    "type": "elem",
+    "name": "login-element",
+    "path": "/login",
+    "group": "login",
+    "import": "src/login-element.html",
+    "transitions": [{
+      "path": "/",
+      "route": "/",
+      "event": "login-success"
+    }]
+  }
+]
