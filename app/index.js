@@ -26,18 +26,11 @@ module.exports = class extends Generator {
         name: 'author',
         message: 'author',
         default: this.options.author
-      },
-      {
-        type: 'confirm',
-        name: 'bowerinstall',
-        message: 'Do you want to install ui-components(bower)?',
-        default: false
       }
     ]).then((answers) => {
       this.options.author = answers.author || this.options.author;
       this.options.version = answers.version;
       this.options.description = answers.description;
-      this.options.bowerinstall = answers.bowerinstall;
     });
   }
 
@@ -84,7 +77,7 @@ module.exports = class extends Generator {
       npm: {
         'no-optional': true
       },
-      bower: this.options.bowerinstall,
+      bower: true,
       yarn: false
     });
   }
