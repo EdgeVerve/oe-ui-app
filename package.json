@@ -1,6 +1,6 @@
 {
   "name": "oe-ui-app",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "Starter app generator to scaffold an oe-UI based application",
   "repository": {
     "type": "git",
