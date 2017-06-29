@@ -1,4 +1,4 @@
-# OE Starter App
+# OE UI based Starter App
 
 Generator application written using [oe-cloud](https://www.npmjs.com/package/oe-cloud) and [oe-ui](https://github.com/EdgeVerve/oe-ui)
 
@@ -12,7 +12,7 @@ This application template is pre-baked into oeCloud CLI [oe-cloud-cli](https://w
 $ npm install -g oe-cloud-cli 
 
 # build an app
-$ oe oe-starter-app 
+$ oe ui-app
 
 ```
 
