@@ -7,6 +7,7 @@
   "main": "server/server.js",
   "license": "MIT",
   "dependencies": {
+    "loopback-component-storage-mongo": "git+https://github.com/raghav135/loopback-component-storage-mongo.git#master",
     "oe-cloud": "^0.9.3",
     "passport": "0.2.2",
     "passport-facebook": "1.0.3",
