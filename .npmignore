@@ -1,0 +1,14 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+jspm_packages
+bower_components
+
+# IDE
+.vscode
+app/templates/nodered
+app/templates/client/bower_components/
