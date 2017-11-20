@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "loopback-component-storage-mongo": "git+https://github.com/raghav135/loopback-component-storage-mongo.git#master",
-    "oe-cloud": "^1.1.1",
+    "oe-cloud": "^1.1.2",
     "passport": "0.2.2",
     "passport-facebook": "1.0.3",
     "passport-google-oauth": "0.1.5",
