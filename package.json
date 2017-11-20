@@ -1,6 +1,6 @@
 {
   "name": "oe-ui-app",
-  "version": "0.9.1",
+  "version": "1.1.0",
   "description": "Starter app generator to scaffold an oe-UI based application",
   "repository": {
     "type": "git",
@@ -9,10 +9,11 @@
   "license": "MIT",
   "author": "Ramesh choudhary <ramesh_srch@outlook.com>",
   "keywords": [
-    "oe-concept"
+    "oe-concept",
+    "oe-ui-app"
   ],
   "dependencies": {
-    "oe-generator": "^1.1.2",
+    "oe-generator": "^1.2.1",
     "fullname": "^3.3.0"
   },
   "files": [
