@@ -1,5 +1,5 @@
 {
-  "name": "new-app",
+  "name": "<%=appName%>",
   "private": true,
   "dependencies": {
     "polymer": "^1.9.1",
